@@ -1,4 +1,4 @@
-package ec.com.webmarket.restful.api.v1;
+package ec.webmarket.restful.api.v1;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import ec.com.webmarket.restful.common.ApiConstants;
-import ec.com.webmarket.restful.dto.v1.ProvinciaDTO;
-import ec.com.webmarket.restful.security.ApiResponseDTO;
-import ec.com.webmarket.restful.service.crud.ProvinciaService;
+import ec.webmarket.restful.common.ApiConstants;
+import ec.webmarket.restful.dto.v1.ProvinciaDTO;
+import ec.webmarket.restful.security.ApiResponseDTO;
+import ec.webmarket.restful.service.crud.ProvinciaService;
 import jakarta.validation.Valid;
 
 @RestController

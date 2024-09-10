@@ -1,4 +1,4 @@
-package ec.com.webmarket.restful.service;
+package ec.webmarket.restful.service;
 
 import java.util.List;
 import java.util.Optional;

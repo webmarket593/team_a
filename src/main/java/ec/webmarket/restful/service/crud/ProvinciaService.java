@@ -1,4 +1,4 @@
-package ec.com.webmarket.restful.service.crud;
+package ec.webmarket.restful.service.crud;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,11 +7,11 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import ec.com.webmarket.restful.domain.Pais;
-import ec.com.webmarket.restful.domain.Provincia;
-import ec.com.webmarket.restful.dto.v1.ProvinciaDTO;
-import ec.com.webmarket.restful.persistence.ProvinciaRepository;
-import ec.com.webmarket.restful.service.GenericCrudServiceImpl;
+import ec.webmarket.restful.domain.Pais;
+import ec.webmarket.restful.domain.Provincia;
+import ec.webmarket.restful.dto.v1.ProvinciaDTO;
+import ec.webmarket.restful.persistence.ProvinciaRepository;
+import ec.webmarket.restful.service.GenericCrudServiceImpl;
 
 @Service
 public class ProvinciaService extends GenericCrudServiceImpl<Provincia, ProvinciaDTO> {

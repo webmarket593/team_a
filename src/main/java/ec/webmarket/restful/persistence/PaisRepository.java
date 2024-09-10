@@ -1,11 +1,11 @@
-package ec.com.webmarket.restful.persistence;
+package ec.webmarket.restful.persistence;
 
 import java.time.LocalDate;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import ec.com.webmarket.restful.domain.Pais;
+import ec.webmarket.restful.domain.Pais;
 
 public interface PaisRepository extends JpaRepository<Pais, Long> {
 

@@ -1,4 +1,4 @@
-package ec.com.webmarket.restful.dto.v1;
+package ec.webmarket.restful.dto.v1;
 
 import java.time.LocalDate;
 

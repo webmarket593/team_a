@@ -1,4 +1,4 @@
-package ec.com.webmarket.restful.service;
+package ec.webmarket.restful.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -10,7 +10,7 @@ import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 
-import ec.com.webmarket.restful.common.ApiException;
+import ec.webmarket.restful.common.ApiException;
 
 @Service
 public abstract class GenericCrudServiceImpl<DOMAIN, DTO> implements GenericCrudService<DOMAIN, DTO> {

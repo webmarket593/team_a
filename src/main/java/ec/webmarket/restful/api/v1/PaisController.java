@@ -1,4 +1,4 @@
-package ec.com.webmarket.restful.api.v1;
+package ec.webmarket.restful.api.v1;
 
 import java.time.LocalDate;
 
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import ec.com.webmarket.restful.common.ApiConstants;
-import ec.com.webmarket.restful.dto.v1.PaisDTO;
-import ec.com.webmarket.restful.security.ApiResponseDTO;
-import ec.com.webmarket.restful.service.crud.PaisService;
+import ec.webmarket.restful.common.ApiConstants;
+import ec.webmarket.restful.dto.v1.PaisDTO;
+import ec.webmarket.restful.security.ApiResponseDTO;
+import ec.webmarket.restful.service.crud.PaisService;
 import jakarta.validation.Valid;
 
 @RestController

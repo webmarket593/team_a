@@ -1,4 +1,4 @@
-package ec.com.webmarket.restful;
+package ec.webmarket.restful;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package ec.com.webmarket.restful.service.crud;
+package ec.webmarket.restful.service.crud;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -8,10 +8,10 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import ec.com.webmarket.restful.domain.Pais;
-import ec.com.webmarket.restful.dto.v1.PaisDTO;
-import ec.com.webmarket.restful.persistence.PaisRepository;
-import ec.com.webmarket.restful.service.GenericCrudServiceImpl;
+import ec.webmarket.restful.domain.Pais;
+import ec.webmarket.restful.dto.v1.PaisDTO;
+import ec.webmarket.restful.persistence.PaisRepository;
+import ec.webmarket.restful.service.GenericCrudServiceImpl;
 
 @Service
 public class PaisService extends GenericCrudServiceImpl<Pais, PaisDTO> {

@@ -1,4 +1,4 @@
-package ec.com.webmarket.restful.security;
+package ec.webmarket.restful.security;
 
 import java.io.Serializable;
 

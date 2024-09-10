@@ -1,4 +1,4 @@
-package ec.com.webmarket.restful.domain;
+package ec.webmarket.restful.domain;
 
 import java.time.LocalDate;
 

@@ -1,4 +1,4 @@
-package ec.com.webmarket.restful.common;
+package ec.webmarket.restful.common;
 
 public final class ApiConstants {
 

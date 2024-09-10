@@ -9,7 +9,7 @@
 		<version>3.3.1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>ec.com.webmarket</groupId>
+	<groupId>ec.webmarket</groupId>
 	<artifactId>API_RESTful_example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>API_RESTful_example</name>
